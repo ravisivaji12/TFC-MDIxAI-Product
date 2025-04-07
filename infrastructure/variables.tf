@@ -1,5 +1,6 @@
 variable "environment" {
   type = string
+  default = "dev"
 }
 
 variable "location" {
@@ -9,4 +10,5 @@ variable "location" {
 
 variable "resource_group_name" {
   type = string
+  default = "MDIxAI-Dev"
 }
